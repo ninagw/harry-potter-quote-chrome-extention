@@ -1,11 +1,11 @@
 {
-  "name": "your daily quote",
+  "name": "Motivational quotes",
   "version": "1.0.0",
-  "description": "This is an extension to catch short motivational quotes",
+  "description": "This is a chrome browser extension for short motivational quotes",
   "manifest_version": 3,
   "author": "Nina Weber",
   "action": {
     "default_popup": "index.html",
-    "default_title": "your daily quote"
+    "default_title": "Motivational quotes"
   }
 }
