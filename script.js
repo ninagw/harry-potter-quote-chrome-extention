@@ -14,7 +14,7 @@ async function fetchData() {
         const result = await response.json();
         console.log(result);
         document.getElementById("quote-id").innerHTML = result.quote;
-
+        document.getElementById("author-id").innerHTML = result.author;
     } catch (error) {
         console.error(error);
     }
