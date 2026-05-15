@@ -69,8 +69,3 @@ This extension uses the [Motivation Quotes API](https://rapidapi.com/quotes-api-
 ## Author
 
 **Nina Weber**
-
-## License
-
-This project is open source and available under the MIT License.
-
