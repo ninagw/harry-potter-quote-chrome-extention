@@ -13,9 +13,10 @@ async function fetchMeme() {
         const response = await fetch(url, options);
         const meme = await response.json();
         console.log("meme: ", meme);
-        document.getElementById("meme-id").innerHTML = meme.url;
+        document.getElementById("meme-id").src = meme.url;
+        document.getElementById("meme-id").innerHTML = meme.description;
     } catch (error) {
-        console.error(error);
+        console.error("Sorry, something went wrong.");
     }
 }
 fetchMeme();
